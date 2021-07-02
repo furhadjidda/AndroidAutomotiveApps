@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:1:1-22:12
+	package
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:2:5-48
+		INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+		INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:4:5-20:19
+meta-data#com.google.android.gms.car.application
+ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:6:9-8:59
+	android:resource
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:8:13-56
+	android:name
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:7:13-66
+service#com.media.aosp_vim3l_test1.shared.MyMusicService
+ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:13:9-19:19
+	android:exported
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:14:13-76
+intent-filter#action:name:android.media.browse.MediaBrowserService
+ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:16:13-18:29
+action#android.media.browse.MediaBrowserService
+ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:17:17-83
+	android:name
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:17:25-80
+uses-sdk
+INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+		INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+		ADDED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+		INJECTED from /projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml

@@ -1,0 +1,6 @@
+com/media/aosp_vim3l_test1/shared/BuildConfig.java
+ com.media.aosp_vim3l_test1.shared.BuildConfig
+com/media/myapplication/shared/MyMusicService.java
+ com.media.aosp_vim3l_test1.shared.MyMusicService
+ com.media.aosp_vim3l_test1.shared.MyMusicService$1
+ com.media.aosp_vim3l_test1.shared.MyMusicService$MediaSessionCallback

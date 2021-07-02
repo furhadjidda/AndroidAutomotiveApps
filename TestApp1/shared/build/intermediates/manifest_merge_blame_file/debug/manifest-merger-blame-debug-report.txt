@@ -1,0 +1,40 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.media.aosp_vim3l_test1.shared" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="28"
+6-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:4:5-20:19
+10        <meta-data
+10-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:6:9-8:59
+11            android:name="com.google.android.gms.car.application"
+11-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:7:13-66
+12            android:resource="@xml/automotive_app_desc" />
+12-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:8:13-56
+13
+14        <!--
+15         Main music service, provides media browsing and media playback services to
+16         consumers through MediaBrowserService and MediaSession. Consumers connect to it through
+17         MediaBrowser (for browsing) and MediaController (for playback control)
+18        -->
+19        <service
+19-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:13:9-19:19
+20            android:name="com.media.aosp_vim3l_test1.shared.MyMusicService"
+20-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:14:13-76
+21            android:exported="true" >
+21-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:15:13-36
+22            <intent-filter>
+22-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:16:13-18:29
+23                <action android:name="android.media.browse.MediaBrowserService" />
+23-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:17:17-83
+23-->/projects/AndroidAutomotiveDevelopment/TestApp1/shared/src/main/AndroidManifest.xml:17:25-80
+24            </intent-filter>
+25        </service>
+26    </application>
+27
+28</manifest>

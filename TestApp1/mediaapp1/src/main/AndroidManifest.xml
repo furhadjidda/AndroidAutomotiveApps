@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.media.mediaapp1">
+
+    <uses-feature
+        android:name="android.hardware.type.automotive"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+
+    <activity android:name=".MyActivity">
+        <intent-filter>
+            <!-- You can't use either of these intents for Android Automotive OS -->
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            <!--
+            In their place, you can include other intent filters for any activities
+            that your app needs for Android Automotive OS, such as settings or
+            sign-in activities.
+            -->
+        </intent-filter>
+    </activity>
+    </application>
+
+
+
+</manifest>

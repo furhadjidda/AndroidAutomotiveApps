@@ -1,0 +1,41 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Android.bp
+* OWNERS
+* PREUPLOAD.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => radio/src/main/AndroidManifest.xml
+* res/ => radio/src/main/res/
+* src/ => radio/src/main/java/
+* src/com/android/car/radio/bands/ProgramType.aidl => radio/src/main/aidl/com/android/car/radio/bands/ProgramType.aidl
+* src/com/android/car/radio/bands/RegionConfig.aidl => radio/src/main/aidl/com/android/car/radio/bands/RegionConfig.aidl
+* src/com/android/car/radio/service/IRadioAppCallback.aidl => radio/src/main/aidl/com/android/car/radio/service/IRadioAppCallback.aidl
+* src/com/android/car/radio/service/IRadioAppService.aidl => radio/src/main/aidl/com/android/car/radio/service/IRadioAppService.aidl
+* src/com/android/car/radio/service/ITuneCallback.aidl => radio/src/main/aidl/com/android/car/radio/service/ITuneCallback.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
